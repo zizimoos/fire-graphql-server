@@ -1,0 +1,27 @@
+{
+  "name": "fire-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zizimoos/fire-graphql-server.git"
+  },
+  "author": "zizimoos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zizimoos/fire-graphql-server/issues"
+  },
+  "homepage": "https://github.com/zizimoos/fire-graphql-server#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "graphql-yoga": "^1.18.3"
+  }
+}
