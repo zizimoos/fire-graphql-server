@@ -1,11 +1,13 @@
-type Person {
-  id: Int!
-  name: String!
-  age: Int!
-  gender: String!
+type Coin {
+  symbol: String!
+  close_price: String!
+  open_price: String!
+  high_price: String!
+  low_price: String!
+  trade_price_24H: String!
+  trade_volume_24H: String!
 }
 
 type Query {
-  people: [Person]!
-  person(id: Int!): Person
+  coins: [Coin]!
 }

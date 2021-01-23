@@ -1,11 +1,9 @@
-import { people, getById } from "./db";
+// import { getCoins } from "./db";
+import { getCoins } from "./api";
 
 const resolvers = {
   Query: {
-    people: () => people,
-    person: (_, { id }) => {
-      return getById(id);
-    },
+    coins: () => getCoins(),
   },
 };
 
